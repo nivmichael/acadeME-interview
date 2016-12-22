@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html ng-app="directoryApp">
+	<head>
+		<title>AngularJS For Everyone</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"></script>
+		<script src="directory.js"></script>
+		<style>
+			ul {
+				list-style: none:;
+			}
+
+			li {
+				display: flex;
+				margin-bottom: 10px;
+			}
+
+			li span {
+				display: inline-block;
+				line-height: 50px
+			}
+
+			li img {
+				margin-right: 10px;
+				border-radius: 50%;
+				width: 50px;
+				height: 50px;
+			}
+			
+			.hidden {
+				display: none;
+			}
+			li.ng-enter {
+				animation: fadeIn 0.2s linear;
+			}
+
+			@keyframes fadeIn {
+				from {
+					opacity: 0;
+				}
+				to {
+					opacity: 1;
+				}
+			}
+		</style>
+
+	</head>
+	<body>
+		<main ui-view></main>
+	</body>
+</html>
+

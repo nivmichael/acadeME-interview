@@ -1,0 +1,22 @@
+{
+  "name": "AcadeME Interview Test",
+  "version": "0.0.0",
+  "homepage": "http://academeusa.com/",
+  "authors": [
+    "Michael Niv <michael@acade-me.co.il>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
