@@ -8,3 +8,7 @@
 <p>Create a service in 'services' folder. The service will be called in addPerson function, and send the age of the person to 'rpc.php'. (using $http)</p>
 <p><b>Task 4</b></p>
 <p>Create the PHP function as instructed in 'rpc.php', and display the answer on in the page.</p>
+<br />
+<br />
+<p>When done, send zip answer to michael@acade-me.co.il</p>
+<p>Thank you and good luck</p>
